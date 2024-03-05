@@ -1,0 +1,11 @@
+server:
+  port: 9000
+  servlet:
+    contextPath: /order-svc/
+
+kafka:
+  order:
+    topic:
+      name: order-create-notify
+  bootstrap:
+    servers: localhost:9092
